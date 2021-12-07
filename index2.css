@@ -1,0 +1,35 @@
+.container>div>img {
+    width: 100%;
+}
+
+.container {
+    margin: 0 100px 0 100px;
+    text-align: center;
+}
+
+.bigPic {
+    display: none;
+    margin: 50px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.left,
+.right {
+    cursor: pointer;
+    padding: 20px;
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.left:hover,
+.right:hover {
+    background-color: rgba(206, 202, 202, 0.8);
+}
